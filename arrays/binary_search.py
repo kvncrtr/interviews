@@ -1,25 +1,23 @@
-import math
+# # Binary Search 
+# arr_1 = list(range(1, 101))
 
-# Binary Search 
-arr_1 = list(range(1, 101))
+# def binary_search(arr, target):
+#     left = 0
+#     right = len(arr) - 1
+#     print(right)
 
-def binary_search(arr, answer):
-    low = 0
-    high = len(arr) - 1
+#     while left <= right:
+#         mid = (left + right) // 2
+#         mid_value = arr[mid]
+
+#         if mid_value == target:
+#             return mid
+#         elif mid_value < target:
+#             left = mid + 1 
+#         else:
+#             right = mid - 1
     
-    while low <= high:
-        mid = (low + high) // 2
-        print(answer, mid)
-        guess = arr[mid]
+#     return -1
 
-        if guess == answer:
-            return mid
-        elif guess > answer:
-            high = mid - 1
-        else:
-            low = mid + 1
-    print(mid, answer)
-    return None
-
-result = binary_search(arr_1, 56)
-print(result)
+# result = binary_search(arr_1, 56)
+# print(result)
