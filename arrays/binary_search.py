@@ -46,7 +46,7 @@ phone book.”
 Answer: O(log n)
 '''
 
-# 1.4
+# 1.4 Search through the whole book
 '''
 “You have a phone number, and you want to find the person’s name in the 
 phone book. (Hint: You’ll have to search through the whole book!)”
