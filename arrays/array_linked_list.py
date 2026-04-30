@@ -72,29 +72,29 @@ because it uses a combination of constant time and linear time for search
 and insertion.
 '''
 
-# Selection Sort Smallest Number
-array = [20, 2, 748, 46, 1, 326, 78, 4, 57, 84]
+# # Selection Sort Smallest Number
+# array = [20, 2, 748, 46, 1, 326, 78, 4, 57, 84]
 
-def find_smallest(arr):
-    smallest_value = arr[0]
-    smallest_index = 0
+# def find_smallest(arr):
+#     smallest_value = arr[0]
+#     smallest_index = 0
 
-    for i in range(1, len(arr)):
-        if smallest_value > arr[i]:
-            smallest_value = arr[i]
-            smallest_index = i
+#     for i in range(1, len(arr)):
+#         if smallest_value > arr[i]:
+#             smallest_value = arr[i]
+#             smallest_index = i
 
-    return smallest_index
+#     return smallest_index
 
-def selection_sort(arr):
-    new_arr = []
-    copied_arr = list(arr)
+# def selection_sort(arr):
+#     new_arr = []
+#     copied_arr = list(arr)
 
-    for i in range(len(copied_arr)):
-        smallest = find_smallest(copied_arr)
-        new_arr.append(copied_arr.pop(smallest))
+#     for i in range(len(copied_arr)):
+#         smallest = find_smallest(copied_arr)
+#         new_arr.append(copied_arr.pop(smallest))
 
-    return new_arr
+#     return new_arr
 
-result = selection_sort(array)
-print(result)
+# result = selection_sort(array)
+# print(result)
